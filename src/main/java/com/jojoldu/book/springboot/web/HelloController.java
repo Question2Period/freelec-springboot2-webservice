@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class HelloController { // 예제용 컨트롤러
 
     @GetMapping("/hello")
     public String hello(){

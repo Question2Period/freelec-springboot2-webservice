@@ -18,13 +18,13 @@
             <th>최종수정일</th>
         </tr>
         </thead>
-        <tbody class="tbody">
+        <tbody id="tbody">
         {{#posts}}
         <!-- posts를 순회. for문과 같다-->
             <tr>
                 <!--필드값 추출-->
                 <td>{{id}}</td>
-                <td>{{title}}</td>
+                <td><a href="/posts/update/{{id}}">{{title}}</a></td>
                 <td>{{author}}</td>
                 <td>{{modifiedDate}}</td>
             </tr>
